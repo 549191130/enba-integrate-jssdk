@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: @project.artifactId@
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+
+enba:
+  mp:
+    app-id: 自己公众号的appid
+    app-secret: 自己公众号的appsecret
